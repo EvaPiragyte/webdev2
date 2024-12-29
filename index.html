@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Club</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+
+<body>
+  <header class="top-banner"> <div class="home-button"> <div class="home-button-inner">
+    <div class="home-button-front"></div> <div class="home-button-back"></div></div> </div>
+    <div class="intro-text">
+      <p>
+        The Student Plant Club at the university is a vibrant community space where students connect through a shared love for plants.
+      </p></div>
+    <div class="social-info"> <p class="social-links">
+        <a href="https://www.instagram.com/ucoimbra/" target="_blank"> <i class="fa fa-instagram"></i> </a>
+        <a href="https://www.uc.pt/en/" target="_blank" > <i class="fa fa-university"></i> </a>
+        <a href="https://github.com/EvaPiragyte" target="_blank" > <i class="fa fa-github"></i> </a></p></div>
+  </header>
+
+  <div class="content-wrapper">
+    <section class="screen" id="homeScreen">
+      <main class="grid-section">
+        <div class="box box-1 fade-in" id="boxPlants"> <h2>our plants</h2> </div>
+        <div class="box box-2 fade-in" id="boxWorkshops"> <h2>workshops</h2> </div>
+        <div class="box box-3 fade-in" id="boxMembers"> <h2>our gardeners</h2> </div>
+        <div class="box box-4 fade-in" id="boxContact"> <h2>contacts</h2> </div> </main>
+    </section>
+
+    
+    <section class="screen" id="plantsScreen">
+      <button class="close-button">×</button>
+      <p class="screen-description">
+        Discover plants with unique backstories and how they were saved.
+      </p>
+      <div class="wrapper"> 
+        <div class="card-plant"> <img src="plant3.avif" /> <div class="info">
+            <h1>Rosie</h1>
+            <p>
+              Rosie was left behind in the art studio.<br>
+              Now she lives in a classroom.
+            </p></div></div>
+
+        <div class="card-plant"> <img src="plant2.avif" /> <div class="info">
+            <h1>Spike</h1>
+            <p>
+              Spike was brought by a student moving out of the dorms.<br>
+              Spike now has a new home.
+            </p></div></div>
+
+        <div class="card-plant"> <img src="plant1.avif" /> <div class="info">
+            <h1>Lily</h1>
+            <p>
+              Lily was found in a corner of the science lab. <br>
+              A kind professor brought her to the club.
+            </p></div> </div></div>
+    </section>
+
+    <section class="screen" id="workshopsScreen"> <button class="close-button">×</button>
+      <div class="workshops-container">
+        <p class="screen-description">
+          Learn, create, and connect through our plant-themed workshops.
+        </p>
+        <div class="carousel" id="workshopCarousel"> <div class="card"> <img src="img1.jpg">
+            <h3>Succulent Arrangement Basics</h3>
+            <p><strong>Time:</strong> March 5, 2024, 10:00 AM<br>
+               <strong>Cabinet:</strong> Room A-305<br>
+               Learn the art of creating succulent arrangements.
+            </p></div>
+          <div class="card"><img src="img2.jpg">
+            <h3>Building Your Own Terrarium</h3>
+            <p><strong>Time:</strong> April 6, 2024, 09:00 AM<br>
+               <strong>Cabinet:</strong> Room B-007<br>
+               Design and build a self-sustaining terrarium.
+            </p></div>
+          <div class="card"> <img src="img33.webp">
+            <h3>Flower Pressing Techniques</h3>
+            <p><strong>Time:</strong> April 7, 2024, 15:00 PM<br>
+               <strong>Cabinet:</strong> Room A-305<br>
+               Discover ways to preserve flowers with pressing.
+            </p></div>
+          <div class="card"> <img src="img4.jpg">
+            <h3>Caring for Indoor Plants</h3>
+            <p><strong>Time:</strong> May 4, 2024, 17:00 PM<br>
+               <strong>Cabinet:</strong> Room A-305<br>
+               Tips to keep indoor plants thriving.
+            </p></div>
+        </div>
+        <div class="controls">
+          <button class="carousel-btn" id="workshopPrevBtn" aria-label="Previous Workshop"></button>
+          <button class="carousel-btn" id="workshopNextBtn" aria-label="Next Workshop"></button>
+        </div></div>
+    </section>
+
+    <section class="screen" id="membersScreen"> <div class="people-container">
+      <button class="close-button">×</button>
+        <p class="screen-description">
+          Meet the passionate students behind our thriving club.
+        </p>
+        <div class="members-list" id="membersList"> </div></div>
+    </section>
+
+    <section class="screen" id="contactScreen">
+      <button class="close-button">×</button>
+      <p class="screen-description">
+        Get in touch with us or follow us on social media.
+      </p>
+      <div class="link-container">
+        <div class="link-card"><div class="link-face link-face1">
+            <div class="link-content"><div class="link-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></div>
+            </div></div>
+          <div class="link-face link-face2"> <div class="link-content">
+              <h3><a href="https://www.instagram.com/ucoimbra/" target="_blank">@ucoimbra</a></h3>
+              <p>Text us about anything on Instagram</p></div></div></div>
+
+              <div class="link-card"><div class="link-face link-face1">
+                <div class="link-content"><div class="link-icon">
+                <i class="fa fa-university" aria-hidden="true"></i></div></div></div>
+                <div class="link-face link-face2"> <div class="link-content">
+              <h3><a href="https://www.uc.pt/en/" target="_blank">University of Coimbra</a></h3>
+              <p>This is the official university website.</p></div></div></div>
+
+              <div class="link-card"><div class="link-face link-face1">
+                <div class="link-content"><div class="link-icon">
+                <i class="fa fa-github-square" aria-hidden="true"></i></div></div></div>
+                <div class="link-face link-face2"> <div class="link-content">
+              <h3><a href="https://github.com/EvaPiragyte" target="_blank">Eva Piragyte</a></h3>
+              <p>Created this website.</p></div></div></div></div>
+    </section>
+  </div>
+
+  
+  <footer class="footer" id="footer">
+    <p> 2024 Student Club</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
